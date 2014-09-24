@@ -9,4 +9,4 @@ Script criado para alterar os links quando é detectado que o aparelho é usado 
 </a>
 ```
 
-Necessário o atributo data-applnk substitua o valor do attr caso o aparelho seja um mobile
+Necessário o atributo data-applnk substitua o valor do href caso o aparelho seja um mobile
