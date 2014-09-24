@@ -1,5 +1,5 @@
 (function (w,d){
-
+	
 	/**
 	 * @function isMobile
 	 * detecta se o useragent e um dispositivo mobile
