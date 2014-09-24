@@ -13,10 +13,8 @@
 		return false;
 	}
 
-	//Verifique se é mobile para executar comandos
 	if( isMobile() ){
 
-		//Organizar os elementos 
 		var config = {
 			eles : d.querySelectorAll('a[data-applnk]'),
 			attr: 'data-applnk'
