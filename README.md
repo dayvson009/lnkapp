@@ -4,9 +4,9 @@ Script criado para alterar os links quando é detectado que o aparelho é usado 
 
 ## Como usar
 ```html
-<a href="javascript:void(0)" class="applnk" data-applnk="tel:813333333">
+<a href="javascript:void(0)" data-applnk="tel:813333333">
 	(81) 3333-3333
 </a>
 ```
 
-Necessário o atributo data-applnk que receberá o valor do
+Necessário o atributo data-applnk substitua o valor do attr caso o aparelho seja um mobile
