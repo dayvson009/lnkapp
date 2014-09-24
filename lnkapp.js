@@ -1,5 +1,5 @@
 (function (w,d){
-	
+
 	/**
 	 * @function isMobile
 	 * detecta se o useragent e um dispositivo mobile
@@ -14,7 +14,7 @@
 	}
 
 	//Verifique se é mobile para executar comandos
-	if(!isMobile()){
+	if( isMobile() ){
 
 		//Organizar os elementos 
 		var config = {
@@ -30,9 +30,11 @@
 
 			attr = ele.getAttribute( config.attr );
 
-			ele.href = attr;
+			if(attr != null)
+				ele.href = attr;
 			
 		};
+
 	}
 
 }(window,document));

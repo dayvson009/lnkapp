@@ -8,3 +8,5 @@ Script criado para alterar os links quando é detectado que o aparelho é usado 
 	(81) 3333-3333
 </a>
 ```
+
+Necessário o atributo data-applnk que receberá o valor do
